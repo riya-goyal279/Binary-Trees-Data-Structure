@@ -17,7 +17,7 @@ var preorderTraversal = function(root) {
 };
 
 
-/************* Iteraive solution using 1 stack ***********/
+/************* Iterative solution using 1 stack ***********/
 var preorderTraversal = function(root) {
     const preOrder = [];
 
@@ -38,7 +38,7 @@ var preorderTraversal = function(root) {
 };
 
 /**********************
- 
+
 1. recursion can lead to stack overflow for very deep trees. 
 2. An iterative approach using a stack avoids this and is often preferred in interviews for its space efficiency.
 3. In iteration, stack lets us simulate the call stack of recursion, but with more control and less risk of stack overflow. 
